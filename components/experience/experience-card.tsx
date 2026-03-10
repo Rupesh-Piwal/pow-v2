@@ -20,7 +20,6 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         <AccordionItem value={experience.id} className="border-b-0">
           <AccordionTrigger className="py-0 hover:no-underline">
             <div className="flex items-center gap-4">
-              {/* Company Logo */}
               <div className="flex h-8 w-8 md:h-12 md:w-12 items-center justify-center rounded-lg border border-border bg-bg-primary overflow-hidden">
                 <Image
                   src={experience.logo}
@@ -31,7 +30,6 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
                 />
               </div>
 
-              {/* Info */}
               <div className="text-left">
                 <h3 className="font-semibold text-white text-[12px] md:text-text-primary">
                   {experience.company}
@@ -42,7 +40,6 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
               </div>
             </div>
 
-            {/* Duration */}
             <span className="mr-2 text-[10px] md:text-sm text-text-muted">
               {experience.duration}
             </span>

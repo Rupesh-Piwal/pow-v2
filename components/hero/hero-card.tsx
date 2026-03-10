@@ -10,10 +10,8 @@ export function HeroCard() {
   return (
     <section className="lg:py-8">
       <div className="glass-card glass-card-hover glass-border-glow rounded-2xl p-6 pt-6  mt-6">
-        {/* Top section: Avatar + Info */}
         <div className="flex flex-row justify-between gap-6 ">
           <div className="flex flex-row justify-between gap-8">
-            {/* Avatar */}
             <div className="shrink-0">
               <div className="h-20 w-20 overflow-hidden rounded-xl border border-border">
                 <Image
@@ -26,10 +24,7 @@ export function HeroCard() {
                 />
               </div>
             </div>
-
-            {/* Info */}
             <div className="flex flex-col justify-center ">
-              {/* Name */}
               <h1 className="text-[24px] lg:text-3xl font-bold text-text-primary">
                 {siteConfig.name}
               </h1>
@@ -42,7 +37,6 @@ export function HeroCard() {
                 ]}
               />
 
-              {/* Location + Availability */}
               <div className="flex flex-wrap items-center gap-4">
                 <div className="flex items-center gap-1.5 text-text-secondary">
                   <MapPin className="h-3 w-3 lg:h-3 lg:w-3" />
@@ -59,9 +53,8 @@ export function HeroCard() {
           </div>
         </div>
 
-        {/* Bio */}
         <p className="mt-6 text-text-secondary leading-relaxed">
-          {/* {siteConfig.bio} */}I build interactive web apps using{" "}
+          I build interactive web apps using{" "}
           <span className="text-white font-mono font-semibold">TypeScript</span>
           , <span className="text-white font-mono font-semibold"> React</span>,{" "}
           <span className="text-white font-mono font-semibold"> Nextjs</span>.
@@ -69,7 +62,6 @@ export function HeroCard() {
           experiences, driven by a keen eye for design.
         </p>
 
-        {/* CTA Buttons */}
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <Button asChild>
             <a
