@@ -43,7 +43,7 @@ export const projects: Project[] = [
     name: "VidVault",
     description:
       "Built a reliable system to upload and process videos that handles failures smoothly and provides real-time updates, secure sharing, previews, and instant alerts.",
-    image: "/images/projects/vidvault1.png",
+    image: "/images/projects/vidvault.png",
     techStack: [
       "Nextjs",
       "AWS",
