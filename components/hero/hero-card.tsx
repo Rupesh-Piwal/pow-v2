@@ -56,12 +56,12 @@ export function HeroCard() {
         <p className="mt-6 text-text-secondary leading-relaxed">
   I enjoy turning ideas into working products using{" "}
   <span className="text-white font-mono font-semibold">
-    TypeScript
+    Next.js
   </span>
   , <span className="text-white font-mono font-semibold">React</span>,
   and{" "}
   <span className="text-white font-mono font-semibold">
-    Next.js
+    Node.js
   </span>
   . My work often involves building{" "}
   <span className="text-white font-mono font-semibold">
